@@ -6,7 +6,7 @@ import { ethers } from 'ethers';
 
 function App() {
   const [address, setAddress] = useState("");
-  const [network, setNetwork] = useState("");
+  const [network, setNetwork] = useState("eth-mainnet");
   const [tokenData, setTokenData] = useState(null);
   const [nftData, setNftData] = useState(null);
   const [nativeCurrencyData, setNativeCurrencyData] = useState(null);
